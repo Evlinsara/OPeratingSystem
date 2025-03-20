@@ -1,0 +1,20 @@
+echo "Enter first num:"
+read a
+echo "Enter second num:"
+read b
+echo "Enter 1 for add
+	    2 for sub
+	    3 for product
+	    4 for division"
+read op
+case $op in
+1)c=$(($a+$b))
+echo "Sum is $c";;
+2)c=$(($a-$b))
+echo "Difference is $c";;
+3)c=$(($a*$b))
+echo "Product is $c";;
+4)c=$(($a/$b))
+echo "Quotient is $c";;
+5)echo "Invalid "
+esac
