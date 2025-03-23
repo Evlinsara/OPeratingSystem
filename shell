@@ -1,3 +1,4 @@
+Program 1
 
 echo "Enter your name:"
 read name
@@ -8,3 +9,16 @@ read roll
 echo "Name:"$name
 echo "Batch:"$batch
 echo "Roll no:"$roll
+
+Program 2
+
+echo "Enter first no:"
+read a
+echo "Enter second no:"
+read b
+if (($a>$b))
+then
+echo "$a is greater than $b"
+else
+echo "$b is greater than $a"
+fi
