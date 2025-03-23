@@ -1,0 +1,10 @@
+
+echo "Enter your name:"
+read name
+echo "Enter your batch:"
+read batch
+echo "Enter your rollno:"
+read roll
+echo "Name:"$name
+echo "Batch:"$batch
+echo "Roll no:"$roll
